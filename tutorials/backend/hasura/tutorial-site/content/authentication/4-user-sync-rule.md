@@ -45,4 +45,4 @@ Here we are making a request to make a mutation into `users` table.
 
 That’s it! This rule will now be triggered on every successful signup or login, and we insert or update the user data into our database using a Hasura GraphQL mutation.
 
-The above request performs a mutation on the users table with the `id` and `name` values.
+The above request performs a mutation on the users table with the `id` and `name` values, and also your user table should contain 'id', 'name' and 'lastseen' columns
